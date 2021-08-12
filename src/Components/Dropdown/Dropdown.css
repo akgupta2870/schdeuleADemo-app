@@ -1,0 +1,26 @@
+.dropdown_section {
+  border-radius: 10px;
+  width: 355px;
+  height: 53px;
+  border: 1px solid #e6ebfd;
+  outline: none;
+  margin-bottom: 10px;
+  background: #eee8e8;
+}
+
+.dropdown_section .dropdown {
+  width: 100%;
+  height: 98%;
+  font-family: proxima-nova, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.48px;
+  color: #2e3440;
+  border-color: #b7bbe6;
+  margin-top: 1px;
+  border-radius: 7px;
+}
+
+.dropdown_section .dropdown:hover {
+  border-color: #a8a8cf;
+}
+/*# sourceMappingURL=Dropdown.css.map */

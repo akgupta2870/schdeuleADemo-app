@@ -1,0 +1,27 @@
+.main_section {
+  .content_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    .content_section_pic {
+      .image {
+        margin-left: -15px;
+      }
+      .image_heading {
+        text-align: justify;
+        margin-top: -330px;
+        margin-left: 55px;
+        .upper_heading {
+          font: 900 30px Inter, sans-serif;
+          letter-spacing: 1.2px;
+          color: rgb(46, 52, 64);
+          text-align: initial;
+          margin-bottom: 0px;
+        }
+        .lower_heading {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

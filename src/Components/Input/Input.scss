@@ -1,0 +1,55 @@
+.input_section {
+  border-radius: 10px;
+  width: 355px;
+  height: 53px;
+  border: 1px solid rgb(228, 234, 252);
+  outline: none;
+  margin-bottom: 10px;
+  background-color: rgb(251, 251, 251);
+  .input {
+    width: 94%;
+    height: 94%;
+    font-family: proxima-nova, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.48px;
+    color: #2e3440;
+    border-color: #e4eafc;
+    margin-top: 1px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 18px;
+    outline: none;
+  }
+  .input:hover {
+    border: 1px solid blue;
+  }
+}
+.input_section:hover {
+  border: 1px solid #204be9;
+}
+
+.messageinput_section {
+  border-radius: 10px;
+  width: 355px;
+  height: 98px;
+  border: 1px solid rgb(228, 234, 252);
+  outline: none;
+  margin-bottom: 10px;
+  background: rgb(238, 232, 232);
+  .messageinput {
+    width: 94%;
+    height: 94%;
+    font-family: proxima-nova, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.48px;
+    color: #2e3440;
+    margin-top: 1px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 18px;
+  }
+}
+.messageinput:hover {
+  border: 1px solid blue;
+}

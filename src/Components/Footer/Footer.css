@@ -1,0 +1,116 @@
+.main_footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: url("https://www.botshot.in/images/svg/footer_background.svg");
+}
+
+.main_footer .first_box {
+  background-color: white;
+  margin: 10px 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 180px;
+  text-align: justify;
+  padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 50px;
+}
+
+.main_footer .first_box .box_media_link .icons {
+  margin-right: 10px;
+}
+
+.main_footer .first_box .box_address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_footer .first_box .box_address .icons {
+  margin-right: 15px;
+}
+
+.main_footer .first_box .box_address .address {
+  margin: 0;
+  font-size: 12px;
+}
+
+.main_footer .box {
+  background-color: white;
+  margin: 10px 10px;
+  border-radius: 10px;
+  width: 12%;
+  text-align: justify;
+  padding-left: 35px;
+  height: 0%;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
+
+.main_footer .box .box_heading {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 14px;
+  font-family: proxima-nova, sans-serif;
+  letter-spacing: 0.48px;
+  color: #2f3891;
+}
+
+.main_footer .box .box_subheading {
+  font-size: 12px;
+  font-family: proxima-nova, sans-serif;
+  letter-spacing: 0.48px;
+  color: #1c1c1c;
+  margin: 9px 0px;
+}
+
+.main_footer .box .box_subheading:hover {
+  color: #1e78ce;
+}
+
+.lower_footer {
+  background-color: #000531;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.lower_footer .lower_footer_left {
+  color: #6d7089;
+  font-size: 13px;
+}
+
+.lower_footer .lower_footer_right {
+  color: #6d7089;
+  font-size: 13px;
+}
+/*# sourceMappingURL=Footer.css.map */

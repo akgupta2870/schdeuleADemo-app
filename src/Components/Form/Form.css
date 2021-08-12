@@ -1,0 +1,51 @@
+.banner {
+  width: 355px;
+  height: 669px;
+  padding-top: 55px;
+  margin-right: 350px;
+}
+
+.banner .form_header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.banner .form_header .header .bookademo_block {
+  margin-bottom: 30px;
+}
+
+.banner .form_header .header .bookademo_block .underlineheading {
+  font-size: 16px;
+  color: #4b56c0;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.banner .form_header .header .bookademo_block .underline {
+  height: 0.5px;
+  background-color: #4b56c0;
+}
+
+.banner .form_header .header .becomeapartner_block .underlineheading {
+  font-size: 16px;
+  color: #3f51b5;
+}
+
+.banner .input_block {
+  margin-bottom: 40px;
+}
+
+.banner .button_block {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=Form.css.map */

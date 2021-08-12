@@ -1,0 +1,83 @@
+.main_footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("https://www.botshot.in/images/svg/footer_background.svg");
+  .first_box {
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 180px;
+    text-align: justify;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 50px;
+    .box_logo {
+    }
+    .box_media_link {
+      .icons {
+        margin-right: 10px;
+      }
+    }
+    .box_address {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .icons {
+        margin-right: 15px;
+      }
+      .address {
+        margin: 0;
+        font-size: 12px;
+      }
+    }
+  }
+  .box {
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    width: 12%;
+    text-align: justify;
+    padding-left: 35px;
+    height: 0%;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    .box_heading {
+      margin: 0;
+      padding-top: 25px;
+      font-size: 14px;
+      font-family: proxima-nova, sans-serif;
+      letter-spacing: 0.48px;
+      color: rgb(47, 56, 145);
+    }
+    .box_subheading {
+      font-size: 12px;
+      font-family: proxima-nova, sans-serif;
+      letter-spacing: 0.48px;
+      color: rgb(28, 28, 28);
+      margin: 9px 0px;
+    }
+    .box_subheading:hover {
+      color: rgb(30, 120, 206);
+    }
+  }
+}
+.lower_footer {
+  background-color: #000531;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  .lower_footer_left {
+    color: #6d7089;
+    font-size: 13px;
+  }
+  .lower_footer_right {
+    color: #6d7089;
+    font-size: 13px;
+  }
+}

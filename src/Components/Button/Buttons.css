@@ -1,0 +1,17 @@
+.button_section .button_style {
+  border-radius: 30px;
+  width: 283px;
+  height: 65px;
+  color: white;
+  background-color: #4b56c0;
+  border-color: #b7bbe6;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.button_section [disabled] {
+  background-color: #b7bbe6;
+  cursor: inherit;
+}
+/*# sourceMappingURL=Buttons.css.map */

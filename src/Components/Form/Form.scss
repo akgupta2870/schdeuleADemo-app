@@ -1,0 +1,40 @@
+.banner {
+  width: 355px;
+  height: 669px;
+  padding-top: 55px;
+  margin-right: 350px;
+  .form_header {
+    .header {
+      display: flex;
+      flex-direction: row;
+      .bookademo_block {
+        margin-bottom: 30px;
+        .underlineheading {
+          font-size: 16px;
+          color: rgb(75, 86, 192);
+          min-width: fit-content;
+          font-weight: 400;
+          margin-bottom: 15px;
+          margin: 0;
+          letter-spacing: 1px;
+        }
+        .underline {
+          height: 0.5px;
+          background-color: #4b56c0;
+        }
+      }
+      .becomeapartner_block {
+        .underlineheading {
+          font-size: 16px;
+          color: #3f51b5;
+        }
+      }
+    }
+  }
+  .input_block {
+    margin-bottom: 40px;
+  }
+  .button_block {
+    margin-top: 40px;
+  }
+}

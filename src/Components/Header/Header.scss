@@ -1,0 +1,102 @@
+.row {
+  padding-bottom: 5%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 15px 45px 15px 30px;
+    box-sizing: border-box;
+    height: 72px;
+    box-shadow: 5px 5px 5px rgb(238, 238, 238);
+    @media (max-width: 767px) {
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 200px;
+      position: fixed;
+    }
+    .logo-style {
+      margin: 20px 0;
+      @media (max-width: 767px) {
+        width: 450px;
+      }
+    }
+    &__burgermenu {
+      display: none;
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+      padding-right: 100px;
+      &:hover {
+        .header {
+          ul {
+            @media (max-width: 767px) {
+              display: flex;
+            }
+          }
+        }
+      }
+      @media (max-width: 767px) {
+        display: flex;
+      }
+    }
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      margin-left: auto;
+      @media (max-width: 767px) {
+        display: none;
+      }
+
+      li {
+        a {
+          display: block;
+          padding: 0px 15px;
+          color: #000000;
+          text-decoration: none;
+          letter-spacing: 0.8px;
+          font-size: 16px;
+        }
+      }
+      a:hover {
+        color: rgb(30, 120, 206);
+      }
+      &:first-child {
+        a {
+          color: rgb(148, 155, 218);
+        }
+      }
+      &:last-child {
+        a {
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+  button {
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    background-color: #4b56c0;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 150px;
+    height: 36px;
+    font-size: 11px;
+    margin: 0px 15px;
+  }
+}
